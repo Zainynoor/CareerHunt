@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+       .home-icon{
+          width: 2%;
+         height: 25px;
+         margin-left: 3px;
+          display: block;
+         border-radius: 20px;
+       }
+       #computer h1{
+        background-image: url(pictures/comp\ h.png);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        padding: 15px;
+        color: white;
+       }
+       .comp-img{
+        float: right;
+        height: 300px;
+        position: absolute;
+        top: 150px;
+        right: 20px;
+        border-radius:500px ;
+        border: 2px solid blue;
+       }
+       ul{
+        display: inline-block;
+        font-size: 1.7em;
+       }
+       .explaination{
+        border: 2px solid black;
+        box-shadow: 3px 5px 8px grey;
+        border-radius: 10px;
+        width: 40%;
+        float: right;
+        margin-top: 50px;
+        margin-right: 50px;
+       }
+       .explaination h2{
+        text-align: center;
+        font-size: 2em;
+        font-family: cursive;
+       } 
+     .comp-graphic img{
+        height: 40
+        px;
+       }
+       .link{
+         width: 20%;
+          float: right;
+         height: 100px;
+        padding: 20px;
+         border-radius: 10px;
+          border: 2px solid black;
+           margin-top: 20px;
+           margin-right: 1100px;
+      }
+      .link p{
+  font-size: 1.3em;
+  text-align: center;
+}
+.link a{
+  background-color: gray;
+  color: black;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+ 
+}
+.link a:hover{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+@media screen and (max-width:1200px) {
+    .comp-img{
+        display: none;
+    }
+    .explaination{
+        width: 100%;
+    }
+    .link{
+      width: 100%;
+      margin-top: 0;
+    }
+    .comp-graphic img{
+        width: 50%;
+    }
+    .img2{
+        margin-top: 50%;
+    }
+}
+@media screen and (max-width:600px){
+    .img2{
+        margin-top: 70%;
+    }
+}
+@media screen and (max-width:470px){
+   .img2{
+    display: none;
+   }
+}
+    </style>
+</head>
+<body>
+    <div id="computer">
+        <a href="Project home.html"><img class="home-icon" src="pictures/Home icon.png" alt=""></a>
+        <h1>COMPUTER SCIENCE</h1>
+        <table>
+            <tr>
+                <h1  style="padding: 5px; background:none; background-color: grey; text-align: center; color: white;">Introduction</h1>
+                <ul>
+                    Computer science (CS) is the study of computers and algorithmic processes,including:
+                    <li>Their principals.</li>
+                    <li>Their hardware and software designs.</li>
+                    <li>Their applications.</li>
+                    <li>Their impacts on society.</li>
+                    <i>Algorithms+Data Structures=Computer Programming.</i>
+                </ul>
+            </tr>
+            <tr>
+                <img class="comp-img" src="pictures/computer pic2.jpg" alt="">
+            </tr>
+        </table>
+        <div class="explaination">
+            <h2>What Computer Science is not??</h2>
+            <ul>
+                <li>Game player or Game development</li>
+                <li>Animated film making</li>
+                <li>Web site development</li>
+            </ul>
+        </div>
+        <div class="comp-graphic">
+            <h2>Branches of computing</h2>
+            <img style="border: 2px solid black;" src="pictures/Branches of computing.png" alt="">
+            <img class="img2" style="height: 400px; border-radius: 30px; position: absolute; right:100px; top: 800px;" src="pictures/systems.png" alt="">
+        </div>
+        
+        <div class="link">
+            <p>Back to subjects page,</p>
+            <a href="counselling.html">Click here</a>
+           </div>
+    </div>
+</body>
+</html>

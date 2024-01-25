@@ -1,0 +1,203 @@
+body{
+    margin: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+/* navigation bar start */
+.nav{
+    box-shadow:3px 5px 10px black ;
+    padding: 9px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+}
+#nav-check,.nav-btn{
+    display: none;
+}
+.nav-title{
+    display: inline-block;
+    font-size: 2em;
+}
+.tree-img{
+    width: 40px;
+    height: 43px;
+    position: relative;
+    top: 5px;
+    left: 80px;
+}
+.title-A{
+    margin-left: 75px;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    color: purple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.title-B{
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-top: 2px;
+    margin-left:-6px;
+    color: plum;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+.nav-description{
+   font-size: 1.5em; 
+   margin-left: 77px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style:italic;
+   color:black;
+}
+.nav-links{
+    float: right;
+
+}
+.contact{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    box-shadow: none;
+}
+.contact:hover{
+    width: 70px;
+    height: 70px;
+}
+.account{
+    width: 55px;
+    height: 52px;
+    position: absolute;
+    top: 27px;
+    right: 50px;
+    box-shadow: none;
+}
+.account:hover{
+    width: 60px;
+    height: 64px;
+}
+.child-nav{
+    position: absolute;
+    top: 90px;
+    left: 700px;
+    font-size: 1em;
+}
+.child-nav a{
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.child-nav a:hover ,.btn:hover{
+    background-color:plum;
+    color: black;
+    font-size: larger;
+}
+
+/* for mobile */
+  @media screen and (max-width:1020px) {
+   .nav-btn{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+   } 
+   .nav-btn label{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    padding: 12px;
+   }           
+   .nav-btn span{
+    display: block;
+    width: 25px;
+    height: 10px;
+    border-top: 3px solid purple;
+   }
+   .nav-btn:hover{
+    background-color: plum;
+   }
+   .child-nav{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    width: 100%;
+    background-color: purple;
+    text-align: center;
+    height: 0px;
+    overflow: hidden;
+   }
+   .child-nav a{
+    display: block;
+    width: 100%;
+    background: none;
+   }
+   #nav-check:checked ~ .nav-btn{
+  background-color: pink;
+   }
+   #nav-check:checked ~ .child-nav{
+    height:calc(100vh - 50px);
+    text-align: center;
+   }
+
+   .contact{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 0px;
+    right: 40%;
+}
+.contact:hover{
+    width: 45px;
+    height: 45px;
+}
+.account{
+    width: 38px;
+    height: 38px;
+    position: relative;
+    top: 0px;
+    right: 30px;
+}
+.account:hover{
+    width: 42px;
+    height: 42px;
+}
+  }
+
+/* navigation bar end */
+
+ 
+
+  /* footer start */
+  .ft{
+    margin-bottom: -1000px;
+    display: inline-block;
+     background-color:grey ;
+     width: 100%;
+     border-top-right-radius: 100px;
+  }
+  .block{
+     border-left: 2px solid rgb(53, 44, 44);
+     margin-bottom: 15px;
+  }
+ .block h3{
+     font-size: 1.5em;
+    
+ }
+  .block a{ 
+     text-decoration: none;
+     display: block;
+     margin: 4px;
+     color: black;
+ }
+ .block a:hover{
+     color: white;
+     background-color: rgb(38, 37, 37);
+ }
+ /* footer end */
+

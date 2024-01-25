@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="project style.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: "Poppins",sans-serif;
+        }
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(#71b7e6,#9b59b6);
+            padding: 10px;
+        }
+        .container{
+            max-width: 700px;
+            width: 100%;
+            background: #fff;
+            padding: 25px 30px;
+            border-radius: 5px;
+        }
+        .container .title{
+            font-size: 25px;
+            font-weight: 500;
+            position: relative;
+        }
+        .container .title::before{
+            content: " ";
+            position: absolute;
+            height: 3px;
+            width: 30px;
+            background: linear-gradient(135deg,#71b7e6,#9b59b6);
+            left: 0;
+            bottom: 0;
+        }
+        .container form .user-details{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0 12px 0;
+        }
+        form .user-details .input-box{
+            margin-bottom: 15px;
+            width: calc(100% / 2 - 20px);
+        }
+        .user-details .input-box .details{
+            font-weight: 500;
+            margin-bottom: 5px;
+            display: block;
+        }
+        .user-details .input-box input{
+            height: 45px;
+            width: 100%;
+            outline: none;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding-left: 15px ;
+            font-size: 16px;
+            border-left-width: 2px;
+            transition: all 0.3s ease;
+        }
+        .user-details .input-box input:focus,
+        .user-details .input-box input:valid{
+            border-color: #9b59b6;
+        }
+        textarea{
+            width: 200%;
+            height: 80px;
+        }
+        button{
+            text-align: center;
+            padding: 10px;
+            background-color: #71b7e6;
+            border: none;
+            outline: none;
+            width: 100%;
+            font-size: 1.2em;
+            border-radius: 20px;
+        }
+        button:hover{
+            background-color: #ccc;
+        }
+    </style>
+</head>
+<body>
+        <!-- navigation bar start -->
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+    
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+    
+            <div class="nav-title">
+                <img class="tree-img" src="pictures/tree icon.jpg" alt="">
+                <p class="title-A">CAREER</p>
+                <p class="title-B">HUNT</p>
+            </div>
+            
+            <div class="nav-description">
+               Explore your interests
+            </div>
+    
+    
+            <div class="nav-links">
+                <a  href="contact.html"><img class="contact" src="pictures/contact icon.jpg" alt=""></a>
+                <a  href="login.html"><img class="account" src="pictures/account.jpg" alt=""></a>
+            </div>
+        
+    
+        <div class="child-nav">
+                <a href="Project home.html">HOME</a>
+                <a href="FAQ'S page.html">FAQ'S</a>
+                <a href="counselling.html">COUNSELLING</a>
+                
+        </div>
+    </div>
+        <!-- navigation bar end -->
+    <div class="container">
+        <div class="title">Contact Us</div>
+        <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name</span>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">User Name</span>
+                    <input type="text" placeholder="Enter your Username" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">E-mail</span>
+                    <input type="email" placeholder="Enter your E-mail" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Phone number</span>
+                    <input type="tel" placeholder="Enter your Phone number" required>
+                </div>
+                <div class="input-box">
+                    <textarea placeholder="Write your query?" required ></textarea>
+                </div>
+            </div>
+            <div class="button">
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

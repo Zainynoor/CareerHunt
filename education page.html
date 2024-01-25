@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>education page</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+       .home-icon{
+          width: 2%;
+         height: 25px;
+         margin-left: 3px;
+          display: block;
+         border-radius: 20px;
+       }
+       #education h1{
+        background-image: url(pictures/education\ gra.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 15px;
+        text-align: left;
+        font-style: italic;
+        color: white;
+       }
+       .edu-img{
+        float: right;
+        width: 27%;
+        height: 300px;
+        position: absolute;
+        top: 200px;
+        right: 20px;
+        
+       }
+       p,ul{
+        width: 75%;
+        display: inline-block;
+        font-size: 1.7em;
+       }
+       .edu-bran img{
+        margin-left: 300px;
+        margin-top: 0px;
+        height: 400px;
+         width: 40%;
+       }
+       .branches-edu img{
+        height: 400px;
+         width: 40%;
+       }
+       .link{
+         width: 20%;
+          float: right;
+         height: 100px;
+        padding: 20px;
+         border-radius: 10px;
+          border: 2px solid blue;
+           margin-top: -130px;
+           margin-right: 20px;
+      }
+      .link p{
+  font-size: 1.3em;
+  text-align: center;
+}
+.link a{
+  background-color: blue;
+  color: white;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+  display: inline-block;
+}
+.link a:hover{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+@media screen and (max-width:1500px) {
+    body{
+        margin: auto;
+    }
+    .edu-bran img{
+      margin-left: 0;
+      width: 100%;
+    }
+    .branches-edu img{
+        margin-left: 0;
+      width: 100%;
+    }
+    .link{
+      width: 100%;
+      margin-top: 0;
+    }
+   
+}
+@media screen and (max-width:900px){
+    .edu-img{
+        display: none;
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="education">
+        <a href="Project home.html"><img class="home-icon" src="pictures/Home icon.png" alt=""></a>
+        <h1>EDUCATION</h1>
+        <table>
+            <tr>
+                <h1 style="padding: 5px; background:none; background:linear-gradient(green,burlywood); text-align: center;">INTRODUCTION</h1>
+                <p style="text-indent: 10px;">Education is an <b>interdisciplinary subject</b> that draws on:
+                </p>
+                <ul>
+                    <li>sociology</li>
+                    <li>psychology</li>
+                    <li>history</li>
+                    <li>philosophy</li>
+                </ul>
+                <p>It helps us understand and broaden our knowledge about how people of all ages learn and the factors that can impact this positively and negatively.</p>
+            </tr>
+            <tr>
+                <img class="edu-img" src="pictures/education icon.png" alt="">
+            </tr>
+        </table>
+        <div class="branches-edu">
+                 <img src="pictures/scope of edu.png" alt="">
+         <div class="edu-bran">
+            <img src="pictures/modern scope edu.png" alt="">
+        </div>
+            <div class="link">
+                <p>Back to subjects page,</p>
+                <a href="counselling.html">Click here</a>
+               </div>
+        </div>
+    </div>
+</body>
+</html>

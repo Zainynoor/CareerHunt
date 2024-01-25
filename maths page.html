@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths page</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+       .home-icon{
+          width: 2%;
+         height: 25px;
+         margin-left: 3px;
+          display: block;
+         border-radius: 20px;
+       }
+       #maths h1{
+        background-image: url(pictures/maths\ h1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding: 15px;
+        color: white;
+       }
+       .math-img{
+        float: right;
+        height: 300px;
+        position: absolute;
+        top: 130px;
+        right: 20px;
+        border-radius:500px ;
+        border: 2px solid blue;
+       }
+       ul{
+        display: inline-block;
+        font-size: 1.7em;
+       }
+       .math-bran img{
+        margin-left: 300px;
+        border-radius: 350px;
+        margin-top: 50px;
+       }
+       .math-graphic img{
+        height: 270px;
+       }
+       .link{
+         width: 20%;
+          float: right;
+         height: 100px;
+        padding: 20px;
+         border-radius: 10px;
+          border: 2px solid black;
+           margin-top: -150px;
+           margin-right: 20px;
+      }
+      .link p{
+  font-size: 1.3em;
+  text-align: center;
+}
+.link a{
+  background-color: grey;
+  color: black;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+}
+.link a:hover{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+@media screen and (max-width:1500px) {
+    body{
+        margin: auto;
+    }
+    .math-bran img{
+      margin-left: 0;
+    }
+    .link{
+      width: 100%;
+      margin-top: 0;
+    }
+}
+@media screen and (max-width:900px) {
+ .math-img{
+   display: none;
+ }
+ .math-bran img{
+    width: 70%;
+ }
+}
+@media screen and (max-width:900px) {
+    .math-graphic img{
+        width: 70%;
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="maths">
+        <a href="Project home.html"><img class="home-icon" src="pictures/Home icon.png" alt=""></a>
+        <h1>MATHEMATICS</h1>
+        <table>
+            <tr>
+                <h1 style="padding: 5px; background:none; background-color: grey; text-align: center; color: white;">Introduction</h1>
+                <ul>
+                    Mathematics is the science and study of:
+                    <li>Numbers</li>
+                    <li>Structure</li>
+                    <li>Space</li>
+                <b>It is a little complicated but interesting subject<br> and needs more practice.</b>
+            </ul>
+            </tr>
+            <tr>
+                <img class="math-img" src="pictures/maths icon.jpg" alt="">
+            </tr>
+        </table>
+        <div class="math-bran">
+            <img src="pictures/maths-branches.png" alt="">
+        </div>
+        <div class="math-graphic">
+            <img src="pictures/maths pic.jpg" alt="">
+        </div>
+        <div class="link">
+            <p>Back to subjects page,</p>
+            <a href="counselling.html">Click here</a>
+           </div>
+    </div>
+</body>
+</html>

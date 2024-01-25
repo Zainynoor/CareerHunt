@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>bio page</title>
+<style>
+ *{
+   box-sizing: border-box;
+ }
+ .fh,.sh{
+  text-align: center;
+  background-image: url(pictures/biology3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10px;
+  color: white;  
+ }
+.home-icon{
+  width: 2%;
+  height: 25px;
+  margin-left: 3px;
+  display: block;
+  border-radius: 20px;
+  }
+.para-A{
+   width: 25%;
+  height: 300px;
+  background-color: green;
+  color: white;
+  font-size: 1em;
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 10px;
+  float: left;
+ }
+.para-B{
+   width: 47%;
+   padding: 10px;
+  margin:2px;
+  float:left;
+}
+.para-B h2{
+  font-size: 2em;
+  text-align: center;
+  color: green;
+  text-decoration: underline;
+  }
+.pic-A{ 
+  height: 350px;
+  width: 25%;
+  border-radius: 90px;
+  margin-bottom: 180px;
+  border: 5px solid black;
+  float: right;
+}
+.link{
+  width: 25%;
+  float: right;
+  height: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-top: 300px;
+}
+.link p{
+  font-size: 1.3em;
+  text-align: center;
+}
+.link a{
+  background-color: green;
+  color: white;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 130px;
+  transition: 1s ease-in-out;
+}
+.link a:hover{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+@media screen and (max-width:1500px) {
+  body{
+    margin: auto;
+  }
+  .para-A{
+    width: 100%;
+  }
+  .para-B{
+    width: 100%;
+  }
+  .pic-A{
+    width: 100%;
+  }
+  .graphic{
+    display: none;
+  }
+  .link{
+    width: 100%;
+    margin-top: -50px;
+  }
+  .bh{
+   display: none;
+   
+  }
+  .branchA{
+display: none;
+  }
+  .branchB{
+display: none;
+
+  }
+}
+        
+    </style>
+</head>
+<body>
+  <!-- Biology page start -->
+<div id="biology">
+  <a href="Project home.html"><img class="home-icon" src="pictures/Home icon.png" alt=""></a>
+  <h1 class="fh">BIOLOGY</h1>
+  <table>
+    <tr>
+    <div class="para-A">
+     <h1 class="sh" style="color: black;">INTRODUCTION</h1>
+      <ul>
+          <li class="p">Biology is the branch of science concerned with the study of life and living organisms,including their structure,growth,function,evolution,reproduction and taxonomy.</li>
+          <li class="p">Biology generally recognizes the cell as the basic unit of life,genes as the basic unit of heredity and evolution as the engine that propels the synthesis and creation of new species.</li>
+         <li class="p">The term Biology derived from the greek word bios,"life" and the suffix-logia,"study of".</li>
+      </ul>
+          <img class="graphic" src="pictures/Bio graphic1.jpg" alt="">
+          <img class="graphic" src="pictures/Bio graphic2.jpg" alt="">
+    </div>
+    </tr>
+    <tr>
+    <div class="para-B">
+      <h2>Types of Biology</h2>
+       <p style="font-size: 1.3em;">Biology is classified in 3 main types:</p>
+        <div class="mA">
+    
+        <img style="width: 50%; float: right; border-radius: 10px;" src="pictures/zoology.png" alt="">
+        <p style="border: 3px solid green; float: left; padding: 15px; font-size: 1.3em;">Zoology is the study of behaviour,<br>structure,physiology and distribution<br> of <b>animals</b>.</p>
+      </div>
+      <div class="mB">
+    
+        <img style="width: 50%; float: left; border-radius: 10px; margin-top: 50px" src="pictures/botany.png" alt="">
+        <p style="border: 3px solid green; float: right; padding: 5px; font-size: 1.3em;">Botany is the study of genetics, ecology,<br>structure,physiology and distribution<br>and economic importance of <b>plants</b>.</p>
+      </div>
+      <div class="mC">
+      
+        <img style="width: 50%; float: right; border-radius: 10px; margin-top: 30px;" src="pictures/microbiology.png" alt="">
+        <p style="border: 3px solid green; float: left; padding: 15px; font-size: 1.3em;">Microbiology is the study of<br> <b>microscopic organisms</b><br>like viruses,bacteria,algea,fungi,<br>slime molds and protozoa.</p>
+      </div>
+        </tr>
+        <tr>
+            <img class="pic-A" src="pictures/biology icon.png" alt="">
+        </tr>
+      </table>
+    <div class="link">
+      <p>Back to subjects page,</p>
+      <a href="counselling.html">Click here</a>
+     </div>
+    <div class="branches-bio">
+      <h1 class="bh" style="font-size: 3em; margin-top: 800px; margin-left: 540px; color: green; text-decoration: underline;">Branches of Biology</h1>
+      <img class="branchA" style="border-radius: 200px; margin-left: 450px; height: 500px;" src="pictures/branches of bio.png" alt="">
+      <img class="branchB" style="width: 15%; height: 200px; border-radius: 500px; margin-top: -520px; margin-left: 20px;" src="pictures/biology1.jpg" alt="">
+    </div>
+  </div>
+    <!-- Biology page ends -->
+    
+   
+</body>
+</html>

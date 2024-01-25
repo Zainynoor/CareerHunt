@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intermediate counselling</title>
+    <style>
+        body{
+            background:linear-gradient(purple,white);
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            padding: 0px;
+        }
+        .home-icon{
+          width: 2%;
+         height: 25px;
+         margin-left: 3px;
+          display: block;
+         border-radius: 20px;
+       }
+        .class{
+           box-shadow: 5px 8px 19px black;
+           height: 700px;
+           width: 40%;
+           border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content{
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+        a{
+            text-decoration: none;
+        }
+        p{
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.3em;
+            margin:100px  ;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        button{
+            display:flex ;
+            justify-content: center;
+            align-items: center;
+            margin:auto;
+            height: 70px;
+            width: 60%;
+            background-color: purple;
+            color: white;
+           margin-top: 50px;
+           font-size: 1.3em;
+           border: none;
+           outline: none;
+           transition: 1s ease-in-out;
+           
+        }
+        button:hover{
+            background-color: white;
+            color: black;
+            font-size: 1.6em;
+        }
+        button:active{
+            background-color: green;
+            color: white;
+            transition: .2s;
+        }
+        @media screen and (max-width:900px) {
+           body{
+            margin: 0;
+            display: block;
+            height: 230vh;
+           }
+           .class{
+            width: 100%;
+           }
+           p{
+            color: white;
+           }
+        }
+    </style>
+    </head>
+    <body>
+        <a href="Project home.html"><img class="home-icon" src="pictures/Home icon.png" alt=""></a>
+        <p>Choose the subject:</p>
+        <div class="class">
+            <div class="content">
+           <a href="bio page.html"><button>Biology</button></a>
+           <a href="physics page.html"><button>Physics</button></a>
+           <a href="chemistry page.html"><button>Chemistry</button></a>
+           <a href="maths page.html"><button>Mathematics</button></a>
+           <a href="computer page.html"><button>Computer Science</button></a>
+        </div>
+        </div>
+        <div class="class">
+            <div class="content">
+           <a href="stats page.html"><button>Statistics</button></a>
+           <a href="economics page.html"><button>Economics</button></a>
+           <a href="civics page.html"><button>Civics</button></a>
+           <a href="education page.html"><button>Education</button></a>
+           <a href="history page.html"><button>History</button></a>
+        </div>
+        </div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemistry</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+       .home-icon{
+          width: 2%;
+         height: 25px;
+         margin-left: 3px;
+          display: block;
+         border-radius: 20px;
+       }
+       #chemistry h1{
+        background:linear-gradient(blue,skyblue);
+        padding: 15px;
+        color: white;
+        text-align: center;
+        font-style: italic;
+       }
+       .chem-img{
+        float: right;
+        height: 300px;
+        position: absolute;
+        top: 130px;
+        right: 20px;
+        border-radius:500px ;
+        border: 2px solid blue;
+       }
+       ul{
+        display: inline-block;
+        font-size: 1.7em;
+       }
+       .chem-bran{
+        margin-left: 300px;
+       }
+       .periodic img{
+        height: 300px;
+       }
+       .link{
+         width: 20%;
+          float: right;
+         height: 100px;
+        padding: 20px;
+         border-radius: 10px;
+          border: 2px solid blue;
+           margin-top: -150px;
+           margin-right: 20px;
+      }
+      .link p{
+  font-size: 1.3em;
+  text-align: center;
+}
+.link a{
+  background-color: blue;
+  color: white;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+}
+.link a:hover{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+@media screen and (max-width:1500px) {
+    body{
+        margin: auto;
+    }
+    .chem-bran{
+      margin-left: 0;
+    }
+    .link{
+      width: 100%;
+      margin-top: 0;
+    }
+}
+@media screen and (max-width:900px) {
+ .chem-img{
+   display: none;
+ }
+ .chem-bran img{
+    width: 70%;
+ }
+}
+@media screen and (max-width:900px) {
+    .periodic img{
+        width: 70%;
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="chemistry">
+        <a href="Project home.html"><img class="home-icon" src="pictures/Home icon.png" alt=""></a>
+        <h1>CHEMISTRY</h1>
+        <table>
+            <tr>
+                <h1 style="padding: 5px;">INTRODUCTION</h1>
+                <ul>
+                    The branch of science concerned with: 
+                    <li>the substances of which matter is composed.</li>
+                    <li>The investigation of their properties and reactions.</li>
+                    <li>The use of such reactions to form new substances.</li>
+                </ul>
+            </tr>
+            <tr>
+                <img class="chem-img" src="pictures/chemistry icon.png" alt="">
+            </tr>
+        </table>
+        <div class="branches-chem">
+            <h1 style="background: none; color: blue; text-decoration: underline; font-size: 2.3em;">Branches of chemistry</h1>
+            <div class="chem-bran">
+            <img src="pictures/chembranches.png" alt=""></div>
+            <div class="periodic">
+                <img src="pictures/periodic table.png" alt="">
+            </div>
+            <div class="link">
+                <p>Back to subjects page,</p>
+                <a href="counselling.html">Click here</a>
+               </div>
+        </div>
+    </div>
+</body>
+</html>

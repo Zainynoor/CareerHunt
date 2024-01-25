@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>economics page</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+       .home-icon{
+          width: 2%;
+         height: 25px;
+         margin-left: 3px;
+          display: block;
+         border-radius: 20px;
+       }
+       #economics h1{
+        background-image: url(pictures/comp\ h.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 15px;
+        text-align: left;
+        font-style: italic;
+       }
+       .economics-img{
+        float: right;
+        width: 30%;
+        height: 250px;
+        position: absolute;
+        top: 200px;
+        right: 20px;
+        
+       }
+       p,ul{
+        width: 75%;
+        display: inline-block;
+        font-size: 1.7em;
+       }
+       .economics-bran img{
+        margin-left: 300px;
+        border-radius: 130px;
+        margin-top: 0px;
+        height: 500px; width: 60%;
+       }
+       .economics-gra img{
+        height: 300px;
+         width: 20%;
+         margin-left: 10px;
+       }
+       .link{
+         width: 20%;
+          float: right;
+         height: 100px;
+        padding: 20px;
+         border-radius: 10px;
+          border: 2px solid blue;
+           margin-top: -130px;
+           margin-right: 20px;
+      }
+      .link p{
+  font-size: 1.3em;
+  text-align: center;
+}
+.link a{
+  background-color: blue;
+  color: white;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+  display: inline-block;
+}
+.link a:hover{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+@media screen and (max-width:1500px) {
+    body{
+        margin: auto;
+    }
+    .economics-bran img{
+      margin-left: 0;
+    }
+    .link{
+      width: 100%;
+      margin-top: 0;
+    }
+}
+@media screen and (max-width:900px) {
+    .economics-gra img{
+        width: 70%;
+        margin-left: 0;
+    }
+ .economics-bran img{
+    width: 100%;
+ }
+ .economics-img{
+    display: none;
+ }
+}
+@media screen and (max-width:700px) {
+   .economics-bran img{
+      width: 100%;
+   }
+}
+
+    </style>
+</head>
+<body>
+    <div id="economics">
+        <a href="Project home.html"><img class="home-icon" src="pictures/Home icon.png" alt=""></a>
+        <h1>ECONOMICS</h1>
+        <table>
+            <tr>
+                <h1 style="padding: 5px; background:none; background-color: burlywood; text-align: center;">INTRODUCTION</h1>
+                <p style="text-indent: 10px;">Economics is the study of scarcity for the:
+               </p>
+                <ul>
+                    <li>Use of resources</li>
+                    <li>Production of goods and services</li>
+                    <li>Growth of production and welfare overtime</li>
+                    <li>great variety of other complex issues of vital concern to society</li>
+                </ul>
+            </tr>
+            <tr>
+                <img class="economics-img" src="pictures/economics icon.png" alt="">
+            </tr>
+        </table>
+        <div class="branches-economics">
+         <div class="economics-bran">
+            <img src="pictures/economics bran.png" alt=""></div>
+         <div class="economics-gra">   
+            <img src="pictures/economics gra.png" alt="">
+        </div>
+           
+            <div class="link">
+                <p>Back to subjects page,</p>
+                <a href="counselling.html">Click here</a>
+               </div>
+        </div>
+    </div>
+</body>
+</html>

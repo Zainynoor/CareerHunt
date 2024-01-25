@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stats page</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+       .home-icon{
+          width: 2%;
+         height: 25px;
+         margin-left: 3px;
+          display: block;
+         border-radius: 20px;
+       }
+       #stats h1{
+        background-image: url(pictures/sci\ h.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 15px;
+        text-align: left;
+        font-style: italic;
+       }
+       .stats-img{
+        float: right;
+        width: 30%;
+        height: 250px;
+        position: absolute;
+        top: 200px;
+        right: 20px;
+        
+       }
+       p,ul{
+        width: 75%;
+        display: inline-block;
+        font-size: 1.7em;
+       }
+       .stats-bran img{
+        margin-left: 300px;
+        border-radius: 130px;
+        margin-top: 0px;
+        height: 500px; 
+         width: 60%;
+       }
+       .link{
+         width: 20%;
+          float: right;
+         height: 100px;
+        padding: 20px;
+         border-radius: 10px;
+          border: 2px solid blue;
+           margin-top: -130px;
+           margin-right: 20px;
+      }
+      .link p{
+  font-size: 1.3em;
+  text-align: center;
+}
+.link a{
+  background-color: blue;
+  color: white;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+  display: inline-block;
+}
+.link a:hover{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+.diff p{ 
+    font-size: 2em; 
+    text-decoration: underline;
+}
+.diff img{
+    height: 500px;
+     margin-left: 400px;
+}
+@media screen and (max-width:1500px) {
+    body{
+        margin: auto;
+    }
+    .stats-bran img{
+      margin-left: 0;
+    }
+    .link{
+      width: 100%;
+      margin-top: 0;
+    }
+}
+@media screen and (max-width:900px) {
+    .diff img{
+        width: 70%;
+        margin-left: 0;
+    }
+ .stats-bran img{
+    width: 70%;
+ }
+}
+@media screen and (max-width:700px) {
+   .stats-bran img{
+      width: 100%;
+   }
+}
+    </style>
+</head>
+<body>
+    <div id="stats">
+        <a href="Project home.html"><img class="home-icon" src="pictures/Home icon.png" alt=""></a>
+        <h1>STATISTICS</h1>
+        <table>
+            <tr>
+                <h1 style="padding: 5px; background:none; background-color: burlywood; text-align: center;">INTRODUCTION</h1>
+                <p style="text-indent: 10px;">Statistics is the study and manipulation of data,including ways to:
+                </p>
+                <ul>
+                    <li> gather</li>
+                    <li>review</li>
+                    <li>analyze</li>
+                    <li>draw conclusions from data</li>
+                </ul>
+            </tr>
+            <tr>
+                <img class="stats-img" src="pictures/stats icon1.png" alt="">
+            </tr>
+        </table>
+        <div class="branches-stats">
+                 <img style="height: 100px; width: 40%;" src="pictures/stats bran-h (1).png" alt="">
+         <div class="stats-bran">
+            <img src="pictures/stats branches.png" alt=""></div>
+            <div class="diff">
+                <p>Difference between Maths and Stats</p>
+                <img src="pictures/diff math stats.png" alt="">
+            </div>
+            <div class="link">
+                <p>Back to subjects page,</p>
+                <a href="counselling.html">Click here</a>
+               </div>
+        </div>
+    </div>
+</body>
+</html>

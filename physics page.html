@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+       .home-icon{
+          width: 2%;
+         height: 25px;
+         margin-left: 3px;
+          display: block;
+         border-radius: 20px;
+       }
+       #physics h1{
+         background-image: url(pictures/physics\ heading2222.png);
+         background-repeat: no-repeat;
+         background-size: cover;
+         padding: 15px;
+         text-align: center;
+         color: white;
+         font-size: 3em;
+         font-style: italic;
+       }
+       .phy-pic1{
+        float: left;
+         height: 300px;
+         border-radius: 500px;
+       }
+       .phy-br1{
+        height: 200px;
+        width: 70%;
+        border-radius: 10px;
+        margin-top: 100px;
+       }
+       .phy-br2{
+        height: 500px;
+        border-radius: 200px;
+        margin-left: 400px;
+       }
+       #physics ul{
+        font-size: 1.7em;
+        margin-left: 300px;
+        margin-top: 50px;
+       }
+       .link{
+         width: 20%;
+          float: left;
+         height: 100px;
+        padding: 20px;
+         border-radius: 10px;
+          border: 2px solid brown;
+           margin-top: -20px;
+      }
+      .link p{
+  font-size: 1.3em;
+  text-align: center;
+}
+.link a{
+  background-color: brown;
+  color: white;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s ease-in-out;
+}
+.link a:hover{
+    font-size: 1.2em;
+    text-decoration: none;
+}
+@media screen and (max-width:1500px) {
+    body{
+        margin: auto;
+    }
+    .phy-row1{
+        width: 100%;
+    }
+    .phy-row2{
+        width: 100%;
+    }
+    .phy-br2{
+      margin-left: 0;
+    }
+    .link{
+      width: 100%;
+      margin-top: 0;
+    }
+}
+@media screen and (max-width:600px) {
+  .phy-br2{
+    width: 80%;
+  }
+  .phy-pic1{
+    display: none;
+  }
+  #physics ul{
+margin-left: 0;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <div id="physics">
+        <a href="Project home.html"><img class="home-icon" src="pictures/Home icon.png" alt=""></a>
+      <h1>PHYSICS</h1>
+      <table>
+        <tr class="phy-row1" style="width: 30%;">
+            <img class="phy-pic1" src="pictures/physics icon.jpg" alt="">
+        </tr>
+        <tr class="phy-row2"  style="width: 70%; float: right;">
+            <h1 style="background-image: url(pictures/physics\ heading.png); color: white; font-size: 2em; padding: 5px;">INTRODUCTION</h1>
+            <ul>
+                <li>Study of all natural phenomenons.</li>
+                <li>Branch of science centered with the study of matter,energy and the connection between them.</li>
+            </ul>
+        </tr>
+      </table>
+      <div class="branches-phy">
+        <img class="phy-br1" src="pictures/branches of physics  h.png" alt="">
+        <img class="phy-br2" src="pictures/branches of physics t.png" alt="">
+      </div>
+      <div class="link">
+        <p>Back to subjects page,</p>
+        <a href="counselling.html">Click here</a>
+       </div>
+    </div>
+</body>
+</html>
